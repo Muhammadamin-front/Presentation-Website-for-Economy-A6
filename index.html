@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A6 — Kichik biznes siyosati</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress"><span id="progressBar"></span></div>
+
+  <main class="deck" id="deck">
+
+    <!-- 1. TITUL — Neon Mesh (kinetic.md) -->
+    <section class="slide slide--hero" data-bg="mesh" data-title="Titul">
+      <canvas class="bg-canvas"></canvas>
+      <div class="content center hero">
+        <span class="hero__sub" data-anim style="--d:0">Mavzu A6 · Iqtisodiy siyosat</span>
+        <h1 class="hero__title"><span class="roll" data-roll>KICHIK BIZNES</span></h1>
+        <p class="hero__desc" data-anim style="--d:5">va xususiy tadbirkorlikni qo‘llab-quvvatlashda davlatning siyosati</p>
+      </div>
+      <div class="hero__hint" data-anim style="--d:9">Sichqonchani to‘r ustida yurgizing</div>
+    </section>
+
+    <!-- 2. REJA — Aurora (prompt-background-light.md) -->
+    <section class="slide" data-bg="aurora" data-title="Reja">
+      <div class="aurora"><div></div></div>
+      <div class="content">
+        <span class="eyebrow" data-anim style="--d:0">01 · Reja</span>
+        <h2 class="title" data-anim style="--d:1">Taqdimot rejasi</h2>
+        <ol class="plan">
+          <li data-anim style="--d:2"><b>01</b>Kichik biznes va tadbirkorlik tushunchasi</li>
+          <li data-anim style="--d:3"><b>02</b>Iqtisodiyotdagi o‘rni va ahamiyati</li>
+          <li data-anim style="--d:4"><b>03</b>Davlat siyosatining maqsad va tamoyillari</li>
+          <li data-anim style="--d:5"><b>04</b>Qo‘llab-quvvatlash shakllari va vositalari</li>
+          <li data-anim style="--d:6"><b>05</b>O‘zbekistonda huquqiy-institutsional asos</li>
+          <li data-anim style="--d:7"><b>06</b>Xorijiy tajriba</li>
+          <li data-anim style="--d:8"><b>07</b>Muammolar, yechimlar va xulosa</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 3. TUSHUNCHA — Sonar Grid (sonar-grid-effect.md) + Card Flip -->
+    <section class="slide" data-bg="sonar" data-title="Tushuncha">
+      <canvas class="bg-canvas"></canvas>
+      <div class="fade-edges"></div>
+      <div class="content">
+        <span class="eyebrow" data-anim style="--d:0">02 · Tushuncha</span>
+        <h2 class="title" data-anim style="--d:1">Tadbirkorlik nima?</h2>
+        <blockquote class="def" data-anim style="--d:2">
+          Tadbirkorlik — qonun hujjatlariga muvofiq, <mark>tavakkal qilib</mark> va
+          <mark>o‘z mulkiy javobgarligi</mark> ostida daromad (foyda) olishga qaratilgan
+          tashabbuskorlik faoliyati.
+        </blockquote>
+        <p class="lead" data-anim style="--d:3">Kichik biznes subyektlari (kartani bosing yoki ustiga olib boring):</p>
+        <div class="flip-row">
+          <div class="flip" data-anim style="--d:4" tabindex="0">
+            <div class="flip__inner">
+              <div class="flip__face flip__front">
+                <div class="rings"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="flip__foot"><div><h3>Yakka tartibdagi tadbirkor</h3><p>Yuridik shaxs tashkil etmagan holda</p></div><span class="flip__icon">↻</span></div>
+              </div>
+              <div class="flip__face flip__back">
+                <h3>Yakka tartibdagi tadbirkor</h3>
+                <p>Jismoniy shaxs o‘z nomidan faoliyat yuritadi va barcha mol-mulki bilan javob beradi.</p>
+                <ul><li>Oddiy ro‘yxatdan o‘tish</li><li>Soddalashtirilgan soliq</li><li>Kichik xizmat va savdo</li></ul>
+              </div>
+            </div>
+          </div>
+          <div class="flip" data-anim style="--d:5" tabindex="0">
+            <div class="flip__inner">
+              <div class="flip__face flip__front">
+                <div class="rings"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="flip__foot"><div><h3>Mikrofirma</h3><p>Eng kichik yuridik shaxs</p></div><span class="flip__icon">↻</span></div>
+              </div>
+              <div class="flip__face flip__back">
+                <h3>Mikrofirma</h3>
+                <p>Xodimlar soni va yillik daromadi qonunchilikda belgilangan eng past chegaradan oshmaydigan korxona.</p>
+                <ul><li>Oilaviy biznes</li><li>Hunarmandchilik</li><li>Mahalliy xizmatlar</li></ul>
+              </div>
+            </div>
+          </div>
+          <div class="flip" data-anim style="--d:6" tabindex="0">
+            <div class="flip__inner">
+              <div class="flip__face flip__front">
+                <div class="rings"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="flip__foot"><div><h3>Kichik korxona</h3><p>Tarmoq mezonlari bo‘yicha</p></div><span class="flip__icon">↻</span></div>
+              </div>
+              <div class="flip__face flip__back">
+                <h3>Kichik korxona</h3>
+                <p>Mezonlar: o‘rtacha yillik xodimlar soni va yillik tushum (aylanma) hajmi.</p>
+                <ul><li>Ishlab chiqarish</li><li>Qurilish va servis</li><li>Eksport salohiyati</li></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. O‘RNI — Aurora + statistik halqalar -->
+    <section class="slide" data-bg="aurora" data-title="Iqtisodiy o‘rni">
+      <div class="aurora aurora--right"><div></div></div>
+      <div class="content two-col">
+        <div>
+          <span class="eyebrow" data-anim style="--d:0">03 · Iqtisodiyotdagi o‘rni</span>
+          <h2 class="title" data-anim style="--d:1">Iqtisodiyotning tayanchi</h2>
+          <ul class="bullets">
+            <li data-anim style="--d:2"><b>Bandlik</b> — yangi ish o‘rinlarining asosiy manbai</li>
+            <li data-anim style="--d:3"><b>Raqobat</b> — monopoliyaga qarshi muvozanat</li>
+            <li data-anim style="--d:4"><b>Innovatsiya</b> — yangi g‘oya va startaplar</li>
+            <li data-anim style="--d:5"><b>O‘rta sinf</b> — aholi daromadlarining o‘sishi</li>
+            <li data-anim style="--d:6"><b>Hududlar</b> — qishloq va tumanlarning rivoji</li>
+          </ul>
+        </div>
+        <div class="stats">
+          <div class="ring" data-anim="pop" style="--d:3">
+            <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" class="ring__bg"/><circle cx="60" cy="60" r="52" class="ring__fg" data-pct="52.4"/></svg>
+            <div class="ring__val"><b data-count="52.4" data-dec="1">0</b><span>%</span></div>
+            <p>Kichik biznesning YaIMdagi ulushi<small>2024-yil</small></p>
+          </div>
+          <div class="ring" data-anim="pop" style="--d:5">
+            <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" class="ring__bg"/><circle cx="60" cy="60" r="52" class="ring__fg" data-pct="74"/></svg>
+            <div class="ring__val"><b data-count="74" data-dec="0">0</b><span>%</span></div>
+            <p>Iqtisodiyotdagi bandlikdagi ulushi<small>2023-yil</small></p>
+          </div>
+          <p class="source" data-anim style="--d:7">Manba: O‘zbekiston Respublikasi Milliy statistika qo‘mitasi</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. MAQSAD VA TAMOYILLAR — Sonar -->
+    <section class="slide" data-bg="sonar" data-title="Maqsad va tamoyillar">
+      <canvas class="bg-canvas"></canvas>
+      <div class="fade-edges"></div>
+      <div class="content">
+        <span class="eyebrow" data-anim style="--d:0">04 · Davlat siyosati</span>
+        <h2 class="title" data-anim style="--d:1">Maqsad va tamoyillar</h2>
+        <div class="goals">
+          <div class="goal" data-anim style="--d:2"><span>01</span><p>Qulay biznes muhiti va investitsion iqlim yaratish</p></div>
+          <div class="goal" data-anim style="--d:3"><span>02</span><p>Moliyaviy resurslar va bozorlardan foydalanishni kengaytirish</p></div>
+          <div class="goal" data-anim style="--d:4"><span>03</span><p>Ma’muriy to‘siqlar va tekshiruvlarni qisqartirish</p></div>
+          <div class="goal" data-anim style="--d:5"><span>04</span><p>Bandlik va aholi daromadlarini oshirish</p></div>
+        </div>
+        <h3 class="sub" data-anim style="--d:6">Asosiy tamoyillar</h3>
+        <div class="chips" data-anim style="--d:7">
+          <span>Tadbirkorlik erkinligi</span>
+          <span>Xususiy mulk daxlsizligi</span>
+          <span>Ziddiyatlar tadbirkor foydasiga talqin qilinadi</span>
+          <span>Teng raqobat sharoiti</span>
+          <span>Davlat aralashuvini cheklash</span>
+          <span>Ochiqlik va shaffoflik</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. QO‘LLAB-QUVVATLASH SHAKLLARI — Card Flip -->
+    <section class="slide" data-bg="aurora" data-title="Qo‘llab-quvvatlash shakllari">
+      <div class="aurora"><div></div></div>
+      <div class="content">
+        <span class="eyebrow" data-anim style="--d:0">05 · Qo‘llab-quvvatlash shakllari</span>
+        <h2 class="title" data-anim style="--d:1">Davlat qanday yordam beradi?</h2>
+        <div class="flip-grid">
+          <div class="flip flip--sm" data-anim style="--d:2" tabindex="0"><div class="flip__inner">
+            <div class="flip__face flip__front"><i class="flip__emoji">💰</i><h3>Moliyaviy</h3><span class="flip__icon">↻</span></div>
+            <div class="flip__face flip__back"><h3>Moliyaviy</h3><ul><li>Imtiyozli kreditlar</li><li>Kredit kafilliklari</li><li>Foiz kompensatsiyasi</li><li>Grant va subsidiyalar</li></ul></div>
+          </div></div>
+          <div class="flip flip--sm" data-anim style="--d:3" tabindex="0"><div class="flip__inner">
+            <div class="flip__face flip__front"><i class="flip__emoji">🧾</i><h3>Soliq</h3><span class="flip__icon">↻</span></div>
+            <div class="flip__face flip__back"><h3>Soliq</h3><ul><li>Soddalashtirilgan soliq rejimi</li><li>Aylanmadan olinadigan soliq</li><li>Yangi biznes uchun imtiyozlar</li><li>Elektron hisobot</li></ul></div>
+          </div></div>
+          <div class="flip flip--sm" data-anim style="--d:4" tabindex="0"><div class="flip__inner">
+            <div class="flip__face flip__front"><i class="flip__emoji">⚖️</i><h3>Huquqiy</h3><span class="flip__icon">↻</span></div>
+            <div class="flip__face flip__back"><h3>Huquqiy</h3><ul><li>Tekshiruvlarga moratoriy</li><li>Biznes ombudsman himoyasi</li><li>Onlayn ro‘yxatdan o‘tish</li><li>Litsenziyalarni qisqartirish</li></ul></div>
+          </div></div>
+          <div class="flip flip--sm" data-anim style="--d:5" tabindex="0"><div class="flip__inner">
+            <div class="flip__face flip__front"><i class="flip__emoji">🏭</i><h3>Infratuzilma</h3><span class="flip__icon">↻</span></div>
+            <div class="flip__face flip__back"><h3>Infratuzilma</h3><ul><li>Kichik sanoat zonalari</li><li>Texnoparklar</li><li>Biznes-inkubatorlar</li><li>Kommunikatsiyalarga ulanish</li></ul></div>
+          </div></div>
+          <div class="flip flip--sm" data-anim style="--d:6" tabindex="0"><div class="flip__inner">
+            <div class="flip__face flip__front"><i class="flip__emoji">🎓</i><h3>Axborot va ta’lim</h3><span class="flip__icon">↻</span></div>
+            <div class="flip__face flip__back"><h3>Axborot va ta’lim</h3><ul><li>Bepul maslahatlar</li><li>Tadbirkorlik kurslari</li><li>Yagona interaktiv portallar</li><li>Mentorlik dasturlari</li></ul></div>
+          </div></div>
+          <div class="flip flip--sm" data-anim style="--d:7" tabindex="0"><div class="flip__inner">
+            <div class="flip__face flip__front"><i class="flip__emoji">🌍</i><h3>Eksport</h3><span class="flip__icon">↻</span></div>
+            <div class="flip__face flip__back"><h3>Eksport</h3><ul><li>Xorijiy ko‘rgazmalar</li><li>Sertifikatlash xarajatlari</li><li>Logistika kompensatsiyasi</li><li>Eksport kreditlari</li></ul></div>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. HUQUQIY ASOS — Sonar + timeline -->
+    <section class="slide" data-bg="sonar" data-title="Huquqiy asos">
+      <canvas class="bg-canvas"></canvas>
+      <div class="fade-edges"></div>
+      <div class="content">
+        <span class="eyebrow" data-anim style="--d:0">06 · O‘zbekiston</span>
+        <h2 class="title" data-anim style="--d:1">Huquqiy-institutsional asos</h2>
+        <div class="vline">
+          <div class="vl" data-anim="left" style="--d:2"><span>Konstitutsiya</span><p>Iqtisodiy faoliyat, tadbirkorlik va mehnat qilish erkinligi, xususiy mulk daxlsizligi kafolatlanadi.</p></div>
+          <div class="vl" data-anim="left" style="--d:3"><span>2012</span><p>“Tadbirkorlik faoliyati erkinligining kafolatlari to‘g‘risida”gi Qonun (yangi tahrir).</p></div>
+          <div class="vl" data-anim="left" style="--d:4"><span>2017</span><p>Biznes ombudsman (tadbirkorlar huquqlarini himoya qilish bo‘yicha vakil) instituti va Tadbirkorlikni qo‘llab-quvvatlash davlat jamg‘armasi.</p></div>
+          <div class="vl" data-anim="left" style="--d:5"><span>2018</span><p>“Har bir oila — tadbirkor” dasturi: oilaviy biznes uchun imtiyozli kreditlar.</p></div>
+          <div class="vl" data-anim="left" style="--d:6"><span>2024</span><p>“Yoshlar va biznesni qo‘llab-quvvatlash yili” davlat dasturi.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. VOSITALAR — 3D CoverFlow (prompt.md) -->
+    <section class="slide" data-bg="none" data-title="Vositalar">
+      <div class="cf-ambient" id="cfAmbient"></div>
+      <div class="content center">
+        <span class="eyebrow eyebrow--lined" data-anim style="--d:0">07 · Qo‘llab-quvvatlash vositalari</span>
+        <div class="coverflow" id="coverflow" data-anim style="--d:1">
+          <div class="cf-stage"></div>
+          <div class="cf-nav">
+            <button class="cf-btn" data-cf="prev" aria-label="Oldingi">‹</button>
+            <div class="cf-dots"></div>
+            <button class="cf-btn" data-cf="next" aria-label="Keyingi">›</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. XORIJIY TAJRIBA -->
+    <section class="slide" data-bg="aurora" data-title="Xorijiy tajriba">
+      <div class="aurora aurora--right"><div></div></div>
+      <div class="content">
+        <span class="eyebrow" data-anim style="--d:0">08 · Xorijiy tajriba</span>
+        <h2 class="title" data-anim style="--d:1">Dunyo qanday qiladi?</h2>
+        <div class="grid3">
+          <article class="tile" data-anim style="--d:2"><i>US</i><h3>AQSh</h3><p>1953-yilda Kichik biznes ma’muriyati (SBA) tuzilgan: kredit kafolatlari, davlat xaridlarida kvotalar.</p></article>
+          <article class="tile" data-anim style="--d:3"><i>DE</i><h3>Germaniya</h3><p>“Mittelstand” — oilaviy o‘rta korxonalar; KfW banki orqali uzoq muddatli imtiyozli kreditlar.</p></article>
+          <article class="tile" data-anim style="--d:4"><i>JP</i><h3>Yaponiya</h3><p>1948-yildan Kichik va o‘rta korxonalar agentligi; subpudrat va klaster tizimi.</p></article>
+          <article class="tile" data-anim style="--d:5"><i>KR</i><h3>Janubiy Koreya</h3><p>2017-yilda KO‘B va startaplar vazirligi tashkil etilgan; venchur moliyalashtirish.</p></article>
+          <article class="tile" data-anim style="--d:6"><i>SG</i><h3>Singapur</h3><p>Enterprise Singapore agentligi: grantlar, raqamlashtirish va eksportni qo‘llab-quvvatlash.</p></article>
+          <article class="tile tile--accent" data-anim style="--d:7"><i>★</i><h3>Umumiy saboq</h3><p>Yagona vakolatli organ + kredit kafolati + davlat xaridlariga kirish = barqaror KO‘B sektori.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. MUAMMO VA YECHIM -->
+    <section class="slide" data-bg="sonar" data-title="Muammo va yechim">
+      <canvas class="bg-canvas"></canvas>
+      <div class="fade-edges"></div>
+      <div class="content two-col two-col--even">
+        <div class="panel panel--warn" data-anim="left" style="--d:1">
+          <span class="eyebrow">09 · Muammolar</span>
+          <h3>To‘siqlar</h3>
+          <ul>
+            <li>Moliyaviy resurslarning qimmatligi va garov talabi</li>
+            <li>Norasmiy (yashirin) iqtisodiyot ulushi</li>
+            <li>Malakali kadrlar va menejment tajribasining yetishmasligi</li>
+            <li>Infratuzilma: elektr, gaz, yer ajratish</li>
+          </ul>
+        </div>
+        <div class="panel panel--ok" data-anim="right" style="--d:2">
+          <span class="eyebrow">10 · Yechimlar</span>
+          <h3>Takomillashtirish yo‘llari</h3>
+          <ul>
+            <li>Kafillik va mikromoliya tizimini kengaytirish</li>
+            <li>Soliq ma’muriyatchiligini raqamlashtirish va soddalashtirish</li>
+            <li>Biznes-inkubator va mentorlik tarmoqlari</li>
+            <li>KO‘Bni yirik korxonalar bilan kooperatsiyaga jalb etish</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. XULOSA — Neon Mesh + videodagi kuchukcha (kursorga qaraydi) -->
+    <section class="slide slide--hero slide--end" data-bg="mesh" data-dog data-title="Rahmat">
+      <canvas class="bg-canvas"></canvas>
+      <div class="content end">
+        <div class="end__pet" data-anim="pop" style="--d:1">
+          <canvas class="dog-canvas" aria-label="Kuchukcha"></canvas>
+          <div class="bubble">Vov! 🐾</div>
+        </div>
+        <div class="end__text">
+          <span class="hero__sub" data-anim style="--d:0">Xulosa</span>
+          <p class="quote" data-anim style="--d:2">
+            Kuchli kichik biznes — <em>bandlik</em>, <em>raqobat</em> va <em>o‘rta sinf</em> asosi.
+            Davlatning vazifasi — to‘siqlarni olib tashlash va imkoniyat yaratish.
+          </p>
+          <h2 class="thanks" data-anim="pop" style="--d:16"><span class="roll" data-roll data-roll-delay="1700">RAHMAT!</span></h2>
+          <p class="thanks__sub" data-anim style="--d:19">E’tiboringiz uchun</p>
+          <button class="glow-btn" data-anim style="--d:21" onclick="document.dispatchEvent(new CustomEvent('deck:goto',{detail:0}))">
+            <span>Boshiga qaytish</span><span class="glow-btn__arrow">→</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <nav class="hud">
+    <button class="hud__btn" id="prevBtn" aria-label="Oldingi slayd">←</button>
+    <span class="hud__count"><b id="curNum">01</b> / <span id="totalNum">11</span></span>
+    <button class="hud__btn" id="nextBtn" aria-label="Keyingi slayd">→</button>
+    <button class="hud__btn" id="fsBtn" aria-label="To‘liq ekran" title="To‘liq ekran (F)">⛶</button>
+  </nav>
+  <div class="dots" id="dots"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
